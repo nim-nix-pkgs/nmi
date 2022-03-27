@@ -11,6 +11,7 @@
   inputs.src-nmi-master.ref   = "refs/heads/master";
   inputs.src-nmi-master.owner = "jiro4989";
   inputs.src-nmi-master.repo  = "nmi";
+  inputs.src-nmi-master.dir   = "";
   inputs.src-nmi-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
