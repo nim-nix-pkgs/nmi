@@ -11,7 +11,6 @@
   inputs.src-nmi-v1_0_0.ref   = "refs/tags/v1.0.0";
   inputs.src-nmi-v1_0_0.owner = "jiro4989";
   inputs.src-nmi-v1_0_0.repo  = "nmi";
-  inputs.src-nmi-v1_0_0.dir   = "";
   inputs.src-nmi-v1_0_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
